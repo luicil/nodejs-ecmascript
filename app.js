@@ -55,9 +55,21 @@ var mult2 = a =>{
 
 var mult3 = a => a * 3;
 
+//FIND
 var users = ["luicil", "fernandes", "null"];
 
 console.log(users.find(user => user === "banana"));
+
+//TEMPLATE LITERALS
+
+var tNome = "Luicil";
+var tSobre = "Fernandes";
+
+var frase = `Olá meu nome é ${tNome}
+
+${tSobre}`
+
+console.log(frase);
 
 //console.log(user1);
 //console.log(user2);
