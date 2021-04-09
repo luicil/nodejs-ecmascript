@@ -38,9 +38,25 @@ var user2 = {
 var { u2Nome,u2Pi } = user2;
 
 //ARROW FUNCTIONS
+function soma(a,b){
+    console.log(a + b);
+    return a + b;
+};
+
+//CALLBACK OU SALVAR EM VARIÁVEL
+var mult = (a,b) =>{
+    console.log(a - b);
+};
+
+var mult2 = a =>{
+    console.log(a * 2);
+    return a * 2;
+};
+
+var mult3 = a => a * 3;
 
 
 //console.log(user1);
-console.log(user2);
-console.log(u2Nome);
-console.log(u2Pi);
+//console.log(user2);
+//console.log(u2Nome);
+//console.log(u2Pi);
