@@ -13,17 +13,26 @@ function soma(a, b = 1){
 
 //JSON encurtado
 
+var empresa ={
+    nome: "é presa",
+    cidade: "são paulo"
+}
+
+
 var user1 = {
     nome: nome,
     sobrenome: sobrenome,
-    pi: pi
+    pi: pi,
+    empresa
 };
 
 var user2 = {
     nome,
     sobrenome,
-    pi
+    pi,
+    ...empresa
 }
+
 
 console.log(user1);
 console.log(user2);
