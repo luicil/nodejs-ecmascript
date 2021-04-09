@@ -55,6 +55,9 @@ var mult2 = a =>{
 
 var mult3 = a => a * 3;
 
+var users = ["luicil", "fernandes", "null"];
+
+console.log(users.find(user => user === "banana"));
 
 //console.log(user1);
 //console.log(user2);
