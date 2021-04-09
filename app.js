@@ -26,13 +26,21 @@ var user1 = {
     empresa
 };
 
+//SPREAD
 var user2 = {
-    nome,
-    sobrenome,
-    pi,
+    u2Nome: "luicil",
+    u2Sobrenome: "fernandes",
+    u2Pi: 3.14,
     ...empresa
 }
 
+//DESESTRUTURAÇÃO
+var { u2Nome,u2Pi } = user2;
 
-console.log(user1);
+//ARROW FUNCTIONS
+
+
+//console.log(user1);
 console.log(user2);
+console.log(u2Nome);
+console.log(u2Pi);
